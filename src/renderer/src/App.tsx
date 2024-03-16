@@ -1,34 +1,64 @@
-import Versions from './components/Versions'
-import electronLogo from './assets/electron.svg'
+import * as React from "react"
+
+import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 
 function App(): JSX.Element {
-  const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
+  // const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
 
   return (
-    <>
-      <img alt="logo" className="logo" src={electronLogo} />
-      <div className="creator">Powered by electron-vite</div>
-      <div className="text">
-        Build an Electron app with <span className="react">React</span>
-        &nbsp;and <span className="ts">TypeScript</span>
-      </div>
-      <p className="tip">
-        Please try pressing <code>F12</code> to open the devTool
-      </p>
-      <div className="actions">
-        <div className="action">
-          <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">
-            Documentation
-          </a>
-        </div>
-        <div className="action">
-          <a target="_blank" rel="noreferrer" onClick={ipcHandle}>
-            Send IPC
-          </a>
-        </div>
-      </div>
-      <Versions></Versions>
-    </>
+    <div className="flex flex-row items-center justify-center p-16">
+      <Card className="w-[350px]">
+        <CardHeader>
+          <CardTitle>Create project</CardTitle>
+          <CardDescription>Deploy your new project in one-click.</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <form>
+            <div className="grid w-full items-center gap-4">
+              <div className="flex flex-col space-y-1.5">
+                <Label htmlFor="name">Name</Label>
+                <Input id="name" placeholder="Name of your project" />
+              </div>
+              <div className="flex flex-col space-y-1.5">
+                <Label htmlFor="framework">Framework</Label>
+                <Select>
+                  <SelectTrigger id="framework">
+                    <SelectValue placeholder="Select" />
+                  </SelectTrigger>
+                  <SelectContent position="popper">
+                    <SelectItem value="next">Next.js</SelectItem>
+                    <SelectItem value="sveltekit">SvelteKit</SelectItem>
+                    <SelectItem value="astro">Astro</SelectItem>
+                    <SelectItem value="nuxt">Nuxt.js</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+          </form>
+        </CardContent>
+        <CardFooter className="flex justify-between">
+          <Button variant="outline">Cancel</Button>
+          <Button>Deploy</Button>
+        </CardFooter>
+      </Card>
+    </div>
   )
 }
 
