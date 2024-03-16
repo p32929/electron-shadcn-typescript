@@ -1,6 +1,9 @@
-# electron-app
+# electron-shadcn-typescript
 
-An Electron application with React and TypeScript ( & Shadcn )
+An Electron application boilerplate with React and TypeScript ( & Shadcn )
+
+![Screenshot (8)](https://github.com/p32929/electron-shadcn-typescript/assets/6418354/7794739b-9626-4be5-9903-a65486c0bc21)
+
 
 ## Recommended IDE Setup
 
