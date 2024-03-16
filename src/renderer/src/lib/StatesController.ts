@@ -17,7 +17,7 @@ export interface IStates {
 export class Controller {
     @state
     states: IStates = {
-        counter: 10
+        counter: 0
     }
 
     @action
