@@ -35,3 +35,11 @@ $ yarn build:mac
 # For Linux
 $ yarn build:linux
 ```
+
+---
+
+## Support
+
+If this saved you time, you can buy me a coffee — it keeps these projects maintained and free.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/p32929)
