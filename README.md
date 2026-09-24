@@ -102,26 +102,23 @@ If this saved you time, you can buy me a coffee — it keeps these projects main
 
 ---
 
-## 💼 Need this customised — or need it yesterday?
+## 💼 Using this at a company?
 
-I take fixed-price web & desktop work on my own projects. No hourly billing, no surprise scope:
+I do fixed-price delivery work on my own projects. One invoice, one date, no hourly billing:
 
 | | |
 |---|---|
-| **Drop-in integration** — I wire this into your codebase and hand you a PR that builds | **$45** · 3 days |
-| **Priority bug fix or small feature** — jumps ahead of the free issue queue | **$95** · 72 hours |
-| **Custom build** — branded, packaged and deployed, source yours | **$130** · 7 days |
-| **A full app from scratch** | **from $350** · quoted first |
+| **White-label build** — this project rebranded, extended and deployed as yours | **$6,500** · 3 weeks |
+| **Custom app from scratch** on my own stack, signed and auto-updating | **$12,500** · 6 weeks |
+| **Production-hardening sprint** — 72 hours on this project, for your load and your security review | **$999** |
+| **Ongoing capacity** — one project-week of my time reserved every month | **$9,000 / month** |
 
-All prices and how to buy → **[p32929.github.io/hire](https://p32929.github.io/hire/)**  
-Or buy through [Fiverr](https://www.fiverr.com/fayazbinsalam) (escrow, ID-verified, 5.0★) — safest for a first job.
-
-Scoping and quotes are free: [open an issue](https://github.com/p32929/hire/issues/new) and describe the job.
+Full details → **[p32929.github.io/hire](https://p32929.github.io/hire/)** · Email **[fayazbinsalam@uberip.com](mailto:fayazbinsalam@uberip.com)** — scoping and quotes are free and I answer within one business day.
 
 ### Commercial use of this repo
 
 This repo has **no license file**, which in copyright law means *all rights reserved*.
 Personal use, learning and open-source forks: go ahead, just link back. Shipping it inside a
-commercial or closed-source product needs a license — **$50** for one product, **$150**
-company-wide and perpetual ([details](https://p32929.github.io/hire/)).
-Rather not pay? [Ask in an issue](https://github.com/p32929/hire/issues/new) — I may just MIT it.
+commercial or closed-source product needs a license — **$2,500** for one product, **$9,500**
+company-wide and perpetual, signed and issued the same day
+([details](https://p32929.github.io/hire/)).
